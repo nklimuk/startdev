@@ -1,0 +1,18 @@
+.f {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 200px;
+}
+
+.f1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.f2 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
