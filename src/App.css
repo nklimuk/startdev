@@ -2,39 +2,13 @@
     display: grid;
     grid-template-areas:
             "h h h"
-            "m c c"
+            "m c 0"
             "f f f";
     grid-template-rows: 80px 1fr;
     grid-template-columns: 2fr 8fr 2fr;
     grid-gap: 0px;
 }
 
-.header {
-    grid-area: h;
-    color: #fff503;
-    background-color: #282c34;
-    line-height: 39px;
-}
-
-.header img {
-    width: 40px;
-}
-
-.menu {
-    grid-area: m;
-    background-color: #fff503;
-}
-
-.content {
-    grid-area: c;
-    background-color: antiquewhite;
-}
-
-.footer {
-    grid-area: f;
-    color: #b8d0e0;
-    background-color: #444f65;
-}
 
 /*.App {*/
 /*text-align: center;*/

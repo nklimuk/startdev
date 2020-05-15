@@ -1,0 +1,27 @@
+.header {
+    grid-area: h;
+    color: #fff503;
+    background-color: #35383a;
+    line-height: 79px;
+    display: grid;
+    grid-template-areas: "l t i";
+    grid-template-columns: 2fr 8fr 2fr;
+    text-align: center;
+}
+
+.header img {
+    width: 40px;
+}
+
+.logo {
+    grid-area: l;
+}
+.title {
+    grid-area: t;
+    font-size: 42px;
+}
+.icon {
+    grid-area: i;
+}
+
+

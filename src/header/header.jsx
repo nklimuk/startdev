@@ -1,14 +1,13 @@
 import React from 'react';
-import './header.css';
+import c from './header.module.css';
 
 const header = () => {
     return (
-        <div className='title'>
-            <div className='logo'> <img src='./../../public/logoza.ru1.png'></img></div>
-            <div> START DEVELOP</div>
-            <div><img src='public/logoza.ru.png' /></div>
-
-        </div>
+        <header className={c.header}>
+            <div className={c.logo}><img src='./../../public/logoza.ru1.png'></img></div>
+            <div className={c.title}> START DEVELOP</div>
+            <div className={c.icon}><img src='public/logoza.ru.png'/></div>
+        </header>
     )
 }
 

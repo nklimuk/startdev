@@ -1,16 +1,16 @@
 import React from 'react';
-import './footer.css';
+import  c from './footer.module.css';
 
 const footer = () => {
     return (
-        <div class="f">
-            <ul class="f1">
+        <div class={c.footer}>
+            <ul class={c.item}>
                 <ol>разработчки</ol>
                 <ol>шлют</ol>
                 <ol>привет</ol>
                 <ol>всем</ol>
             </ul>
-            <ul class="f2">
+            <ul class={c.item}>
                 <ol>все</ol>
                 <ol>права</ol>
                 <ol>защищены</ol>

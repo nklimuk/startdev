@@ -1,13 +1,15 @@
 import React from 'react';
-import './menu.css'
+import c from './menu.module.css'
+
 const menu = () => {
     return (
-        <div className="divMenu">
-            <div>FrontEnd</div>
+        <div className={c.menu}>
+            <div className={`${c.active}`}>FrontEnd</div>
             <div>BackEnd</div>
             <div>Задачи</div>
             <div>Контрольные вопросы</div>
             <div>Рекомендованные ресурсы</div>
+
         </div>
     )
 };

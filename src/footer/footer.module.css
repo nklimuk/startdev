@@ -1,17 +1,14 @@
-.f {
+.footer {
+    grid-area: f;
+    color: #8c9094;
+    background-color: #35383a;
     display: flex;
     flex-flow: column;
     justify-content: center;
     height: 200px;
 }
 
-.f1 {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-}
-
-.f2 {
+.item {
     display: flex;
     flex-flow: row;
     justify-content: center;
