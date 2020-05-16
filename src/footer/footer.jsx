@@ -5,13 +5,16 @@ const footer = () => {
     return (
         <div class={c.footer}>
             <ul class={c.item}>
-                <ol>разработчки</ol>
-                <ol>шлют</ol>
+                <ol>разработчк</ol>
+                <ol>Nikolay</ol>
+                <ol>шлет</ol>
                 <ol>привет</ol>
-                <ol>всем</ol>
+                <ol>саля</ol>
+                <ol>маляй</ol>
             </ul>
             <ul class={c.item}>
-                <ol>все</ol>
+                <ol>пока</ol>
+                <ol>не все</ol>
                 <ol>права</ol>
                 <ol>защищены</ol>
             </ul>

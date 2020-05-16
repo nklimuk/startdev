@@ -4,12 +4,11 @@ import c from './menu.module.css'
 const menu = () => {
     return (
         <div className={c.menu}>
-            <div className={`${c.active}`}>FrontEnd</div>
-            <div>BackEnd</div>
-            <div>Задачи</div>
-            <div>Контрольные вопросы</div>
-            <div>Рекомендованные ресурсы</div>
-
+            <a href="/frontend"> <div className={`${c.active}`}>FrontEnd</div></a>
+            <a href="/backEnd"><div>BackEnd</div></a>
+            <a href="/tasks"><div>Задачи</div></a>
+            <a href="/testQuestions"><div>Контрольные вопросы</div></a>
+            <a href="/resources"><div>Рекомендованные ресурсы</div></a>
         </div>
     )
 };

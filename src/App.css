@@ -1,11 +1,11 @@
 .app-wrapper {
     display: grid;
     grid-template-areas:
-            "h h h"
-            "m c 0"
-            "f f f";
+            "h h "
+            "m c "
+            "f f ";
     grid-template-rows: 80px 1fr;
-    grid-template-columns: 2fr 8fr 2fr;
+    grid-template-columns: 2fr 8fr;
     grid-gap: 0px;
 }
 

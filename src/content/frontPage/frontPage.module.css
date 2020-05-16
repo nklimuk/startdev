@@ -1,0 +1,12 @@
+.list {
+    text-align: center;
+}
+
+.list > ul {
+    margin-bottom: 200px;
+}
+
+.list > ul li {
+    line-height: 80px;
+    border-bottom: 1px solid grey;
+}
