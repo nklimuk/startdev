@@ -5,18 +5,18 @@ const footer = () => {
     return (
         <div class={c.footer}>
             <ul class={c.item}>
-                <ol>разработчк</ol>
-                <ol>Nikolay</ol>
-                <ol>шлет</ol>
-                <ol>привет</ol>
-                <ol>саля</ol>
-                <ol>маляй</ol>
+                <li>разработчк</li>
+                <li>Nikolay</li>
+                <li>шлет</li>
+                <li>привет</li>
+                <li>саля</li>
+                <li>маляй</li>
             </ul>
             <ul class={c.item}>
-                <ol>пока</ol>
-                <ol>не все</ol>
-                <ol>права</ol>
-                <ol>защищены</ol>
+                <li>пока</li>
+                <li>не все</li>
+                <li>права</li>
+                <li>защищены</li>
             </ul>
         </div>
     )
